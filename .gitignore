@@ -1,0 +1,10 @@
+# .gitignore
+
+# Files and folders to ignore:
+venv/
+__pycache__/
+*.pyc
+*.log
+
+# CRUCIAL: Do not upload tokens!
+.env 
