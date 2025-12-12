@@ -14,7 +14,7 @@ load_dotenv()
 DISCORD_TOKEN = os.getenv('DISCORD_TOKEN') # เอามาจากENV
 GENIUS_TOKEN = os.getenv('GENIUS_TOKEN') # เอามาจากENV 
 LOFI_URL = "https://www.youtube.com/watch?v=jfKfPfyJRdk"# ลิงค์เพลงlofi
- 
+DEDICATED_CHANNEL_NAME = "ขอเพลง-bot"
 # ==================== 🔧 SYSTEM SETUP ====================
 intents = discord.Intents.default()
 intents.message_content = True
